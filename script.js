@@ -13,18 +13,18 @@ canvas.height = 600;
 let ball = {
   x: Math.random() * 380 + 10, // Posición aleatoria inicial (evita los bordes)
   y: 0,
-  radius: 15,
+  radius: 10,
   speed: 5,
   color: "blue",
 };
 
 // 🧍 Control del jugador (la barra)
 let catcher = {
-  width: 80,
+  width: 60,
   height: 10,
   x: canvas.width / 2 - 40, // Centrado al inicio
   y: canvas.height - 40,
-  color: "white",
+  color: "gray",
 };
 
 let score = 0;
@@ -88,7 +88,7 @@ function draw() {
   // Dibuja el score
   ctx.fillStyle = "white";
   ctx.font = "18px Arial";
-  ctx.fillText("Score: " + score, 10, 25);
+  ctx.fillText("Balls caught: " + score, 10, 25);
 }
 
 // 🌀 Bucle del juego
