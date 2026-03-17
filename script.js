@@ -24,7 +24,7 @@ let catcher = {
   height: 10,
   x: canvas.width / 2 - 40, // Centrado al inicio
   y: canvas.height - 40,
-  color: "white",
+  color: "blue",
 };
 
 let score = 0;
