@@ -6,8 +6,8 @@ const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");
 
 // 🔧 Ajustes del lienzo
-canvas.width = 400;
-canvas.height = 600;
+canvas.width = 600;
+canvas.height = 400;
 
 // 🏀 Configuración de la bola
 let ball = {
@@ -15,7 +15,7 @@ let ball = {
   y: 0,
   radius: 15,
   speed: 3,
-  color: "red",
+  color: "blue",
 };
 
 // 🧍 Control del jugador (la barra)
