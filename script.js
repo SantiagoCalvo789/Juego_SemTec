@@ -14,8 +14,8 @@ let ball = {
   x: Math.random() * 380 + 10, // Posición aleatoria inicial (evita los bordes)
   y: 0,
   radius: 15,
-  speed: 3,
-  color: "red",
+  speed: 5,
+  color: "blue",
 };
 
 // 🧍 Control del jugador (la barra)
